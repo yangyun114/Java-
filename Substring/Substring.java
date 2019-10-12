@@ -1,4 +1,5 @@
-public static void main(String[] args) {
+public class substring { 
+	public static void main(String[] args) throws IOException {
 		String img = "155555.jpg";
 		int index = img.indexOf(".");
 		String prefix = img.substring(0, index);
@@ -7,3 +8,4 @@ public static void main(String[] args) {
 		String unitImgCompress = sb.append("_compress").append(suffix).toString();
 		System.out.println(unitImgCompress);
 	}
+}
